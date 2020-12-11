@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2298C2402584312400240B18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2298C23F2584312400240B18 /* AppDelegate.swift */; };
+		2298C2422584312400240B18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2298C2412584312400240B18 /* SceneDelegate.swift */; };
+		2298C2442584312400240B18 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2298C2432584312400240B18 /* ContentView.swift */; };
+		2298C2462584312700240B18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2298C2452584312700240B18 /* Assets.xcassets */; };
+		2298C2492584312700240B18 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2298C2482584312700240B18 /* Preview Assets.xcassets */; };
+		2298C24C2584312700240B18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2298C24A2584312700240B18 /* LaunchScreen.storyboard */; };
+		2298C2572584312700240B18 /* TribeCardViewShitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2298C2562584312700240B18 /* TribeCardViewShitTests.swift */; };
+		2298C2622584312700240B18 /* TribeCardViewShitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2298C2612584312700240B18 /* TribeCardViewShitUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2298C2532584312700240B18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2298C2342584312400240B18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2298C23B2584312400240B18;
+			remoteInfo = TribeCardViewShit;
+		};
+		2298C25E2584312700240B18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2298C2342584312400240B18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2298C23B2584312400240B18;
+			remoteInfo = TribeCardViewShit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2298C23C2584312400240B18 /* TribeCardViewShit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TribeCardViewShit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2298C23F2584312400240B18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2298C2412584312400240B18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2298C2432584312400240B18 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2298C2452584312700240B18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2298C2482584312700240B18 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2298C24B2584312700240B18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2298C24D2584312700240B18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2298C2522584312700240B18 /* TribeCardViewShitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TribeCardViewShitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2298C2562584312700240B18 /* TribeCardViewShitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TribeCardViewShitTests.swift; sourceTree = "<group>"; };
+		2298C2582584312700240B18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2298C25D2584312700240B18 /* TribeCardViewShitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TribeCardViewShitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2298C2612584312700240B18 /* TribeCardViewShitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TribeCardViewShitUITests.swift; sourceTree = "<group>"; };
+		2298C2632584312700240B18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2298C2392584312400240B18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2298C24F2584312700240B18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2298C25A2584312700240B18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2298C2332584312400240B18 = {
+			isa = PBXGroup;
+			children = (
+				2298C23E2584312400240B18 /* TribeCardViewShit */,
+				2298C2552584312700240B18 /* TribeCardViewShitTests */,
+				2298C2602584312700240B18 /* TribeCardViewShitUITests */,
+				2298C23D2584312400240B18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2298C23D2584312400240B18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2298C23C2584312400240B18 /* TribeCardViewShit.app */,
+				2298C2522584312700240B18 /* TribeCardViewShitTests.xctest */,
+				2298C25D2584312700240B18 /* TribeCardViewShitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2298C23E2584312400240B18 /* TribeCardViewShit */ = {
+			isa = PBXGroup;
+			children = (
+				2298C23F2584312400240B18 /* AppDelegate.swift */,
+				2298C2412584312400240B18 /* SceneDelegate.swift */,
+				2298C2432584312400240B18 /* ContentView.swift */,
+				2298C2452584312700240B18 /* Assets.xcassets */,
+				2298C24A2584312700240B18 /* LaunchScreen.storyboard */,
+				2298C24D2584312700240B18 /* Info.plist */,
+				2298C2472584312700240B18 /* Preview Content */,
+			);
+			path = TribeCardViewShit;
+			sourceTree = "<group>";
+		};
+		2298C2472584312700240B18 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2298C2482584312700240B18 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2298C2552584312700240B18 /* TribeCardViewShitTests */ = {
+			isa = PBXGroup;
+			children = (
+				2298C2562584312700240B18 /* TribeCardViewShitTests.swift */,
+				2298C2582584312700240B18 /* Info.plist */,
+			);
+			path = TribeCardViewShitTests;
+			sourceTree = "<group>";
+		};
+		2298C2602584312700240B18 /* TribeCardViewShitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2298C2612584312700240B18 /* TribeCardViewShitUITests.swift */,
+				2298C2632584312700240B18 /* Info.plist */,
+			);
+			path = TribeCardViewShitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2298C23B2584312400240B18 /* TribeCardViewShit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2298C2662584312700240B18 /* Build configuration list for PBXNativeTarget "TribeCardViewShit" */;
+			buildPhases = (
+				2298C2382584312400240B18 /* Sources */,
+				2298C2392584312400240B18 /* Frameworks */,
+				2298C23A2584312400240B18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TribeCardViewShit;
+			productName = TribeCardViewShit;
+			productReference = 2298C23C2584312400240B18 /* TribeCardViewShit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2298C2512584312700240B18 /* TribeCardViewShitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2298C2692584312700240B18 /* Build configuration list for PBXNativeTarget "TribeCardViewShitTests" */;
+			buildPhases = (
+				2298C24E2584312700240B18 /* Sources */,
+				2298C24F2584312700240B18 /* Frameworks */,
+				2298C2502584312700240B18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2298C2542584312700240B18 /* PBXTargetDependency */,
+			);
+			name = TribeCardViewShitTests;
+			productName = TribeCardViewShitTests;
+			productReference = 2298C2522584312700240B18 /* TribeCardViewShitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2298C25C2584312700240B18 /* TribeCardViewShitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2298C26C2584312700240B18 /* Build configuration list for PBXNativeTarget "TribeCardViewShitUITests" */;
+			buildPhases = (
+				2298C2592584312700240B18 /* Sources */,
+				2298C25A2584312700240B18 /* Frameworks */,
+				2298C25B2584312700240B18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2298C25F2584312700240B18 /* PBXTargetDependency */,
+			);
+			name = TribeCardViewShitUITests;
+			productName = TribeCardViewShitUITests;
+			productReference = 2298C25D2584312700240B18 /* TribeCardViewShitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2298C2342584312400240B18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					2298C23B2584312400240B18 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					2298C2512584312700240B18 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 2298C23B2584312400240B18;
+					};
+					2298C25C2584312700240B18 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 2298C23B2584312400240B18;
+					};
+				};
+			};
+			buildConfigurationList = 2298C2372584312400240B18 /* Build configuration list for PBXProject "TribeCardViewShit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2298C2332584312400240B18;
+			productRefGroup = 2298C23D2584312400240B18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2298C23B2584312400240B18 /* TribeCardViewShit */,
+				2298C2512584312700240B18 /* TribeCardViewShitTests */,
+				2298C25C2584312700240B18 /* TribeCardViewShitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2298C23A2584312400240B18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2298C24C2584312700240B18 /* LaunchScreen.storyboard in Resources */,
+				2298C2492584312700240B18 /* Preview Assets.xcassets in Resources */,
+				2298C2462584312700240B18 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2298C2502584312700240B18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2298C25B2584312700240B18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2298C2382584312400240B18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2298C2402584312400240B18 /* AppDelegate.swift in Sources */,
+				2298C2422584312400240B18 /* SceneDelegate.swift in Sources */,
+				2298C2442584312400240B18 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2298C24E2584312700240B18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2298C2572584312700240B18 /* TribeCardViewShitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2298C2592584312700240B18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2298C2622584312700240B18 /* TribeCardViewShitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2298C2542584312700240B18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2298C23B2584312400240B18 /* TribeCardViewShit */;
+			targetProxy = 2298C2532584312700240B18 /* PBXContainerItemProxy */;
+		};
+		2298C25F2584312700240B18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2298C23B2584312400240B18 /* TribeCardViewShit */;
+			targetProxy = 2298C25E2584312700240B18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2298C24A2584312700240B18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2298C24B2584312700240B18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2298C2642584312700240B18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2298C2652584312700240B18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2298C2672584312700240B18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TribeCardViewShit/Preview Content\"";
+				DEVELOPMENT_TEAM = 4QQ89TC737;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TribeCardViewShit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Grizzle.TribeCardViewShit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2298C2682584312700240B18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TribeCardViewShit/Preview Content\"";
+				DEVELOPMENT_TEAM = 4QQ89TC737;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TribeCardViewShit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Grizzle.TribeCardViewShit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2298C26A2584312700240B18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4QQ89TC737;
+				INFOPLIST_FILE = TribeCardViewShitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Grizzle.TribeCardViewShitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TribeCardViewShit.app/TribeCardViewShit";
+			};
+			name = Debug;
+		};
+		2298C26B2584312700240B18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4QQ89TC737;
+				INFOPLIST_FILE = TribeCardViewShitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Grizzle.TribeCardViewShitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TribeCardViewShit.app/TribeCardViewShit";
+			};
+			name = Release;
+		};
+		2298C26D2584312700240B18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4QQ89TC737;
+				INFOPLIST_FILE = TribeCardViewShitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Grizzle.TribeCardViewShitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TribeCardViewShit;
+			};
+			name = Debug;
+		};
+		2298C26E2584312700240B18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4QQ89TC737;
+				INFOPLIST_FILE = TribeCardViewShitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Grizzle.TribeCardViewShitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TribeCardViewShit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2298C2372584312400240B18 /* Build configuration list for PBXProject "TribeCardViewShit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2298C2642584312700240B18 /* Debug */,
+				2298C2652584312700240B18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2298C2662584312700240B18 /* Build configuration list for PBXNativeTarget "TribeCardViewShit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2298C2672584312700240B18 /* Debug */,
+				2298C2682584312700240B18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2298C2692584312700240B18 /* Build configuration list for PBXNativeTarget "TribeCardViewShitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2298C26A2584312700240B18 /* Debug */,
+				2298C26B2584312700240B18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2298C26C2584312700240B18 /* Build configuration list for PBXNativeTarget "TribeCardViewShitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2298C26D2584312700240B18 /* Debug */,
+				2298C26E2584312700240B18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2298C2342584312400240B18 /* Project object */;
+}
